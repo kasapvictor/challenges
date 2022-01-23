@@ -1,0 +1,17 @@
+{
+  "name": "hexlet",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "browser": "browser-sync start --server --port 4321 --no-notify  --files \"**/*.*\"",
+    "chokidar": "chokidar \"**/*.js\" -c \"node challenge/fillMatrix.js\""
+  },
+  "keywords": [],
+  "author": "Kasap Victor",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "chokidar": "^3.5.2",
+    "chokidar-cli": "^2.1.0"
+  }
+}
